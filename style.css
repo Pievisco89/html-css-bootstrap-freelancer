@@ -2,6 +2,11 @@
   background-color: rgb(247, 217, 162);
 }
 
+.pv-row-80{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .row.pv-nav{ 
   min-height: 50px;
   background-color: #2c3e50;
@@ -20,13 +25,13 @@
 }
 
 .row.pv-portfolio{
-  background-color: rgb(236, 236, 140);
   max-height: 1200px;
 }
 
 .pv-portfolio-img{
   border-radius: 5px;
-  height: 150px;
+  margin: 5px auto;
+  min-height: 120px;
 }
 
 .violet{
@@ -46,4 +51,22 @@
 }
 .pink{
   background-color: pink;
+}
+
+.row.pv-about{
+  background-color: #1abc9c;
+  min-height: 340px;
+  color: white;
+}
+
+.row.pv-about .col-xs-12.col-sm-6{
+  margin-top: 20px;
+}
+
+.row.contact{
+  min-height: 250px;
+}
+
+.btn-success{
+  margin-top: 50px;
 }
