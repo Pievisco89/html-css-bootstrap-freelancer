@@ -18,3 +18,34 @@
   min-height: 120px;
   padding-top: 30px;
 }
+
+.row.pv-portfolio{
+  background-color: rgb(236, 236, 140);
+  max-height: 1200px;
+}
+
+.pv-portfolio-img{
+  border-radius: 5px;
+  width: 200px;
+  height: 150px;
+  margin: auto;
+}
+
+.violet{
+  background-color: #ba4c63
+}
+.acqua{
+  background-color: #1fa4b6;
+}
+.black{
+  background-color: black;
+}
+.azure{
+  background-color: #1d83c1;
+}
+.blue{
+  background-color: #1037b5;
+}
+.pink{
+  background-color: pink;
+}
