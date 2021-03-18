@@ -86,6 +86,30 @@
   border-bottom: 1px solid lightgray;
 }
 
+/* footer */
+footer{
+  color: white;
+}
+
+.pv-footer-top{
+  background-color: #2c3e50;
+}
+
+.pv-footer-bottom{
+  background-color: #1a252f;
+}
+
+.footer-social li{
+  display: inline; 
+  padding: 15px 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  }
+
+.footer-social a{
+  color: white;
+}
+
 /* Btn */
 .btn{
   background-color: transparent;
