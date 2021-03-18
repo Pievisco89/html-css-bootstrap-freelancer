@@ -91,6 +91,29 @@
   display: inline-block;
 }
 
+.pv-rel{
+  position: relative;
+}
+
+.pv-rel .pv-line::after{
+  position: absolute;
+  content: '';
+  top: 45%;
+  left: 140%;
+  width: 110px;
+  border-bottom: 4px solid white;
+}
+
+/* .pv-rel .pv-line::before{
+  position: absolute;
+  content: '';
+  top: 45%;
+  right: 140%;
+  height: 15px;
+  width: 110px;
+  border-bottom: 4px solid white;
+} */
+
 /* main */
 /* portfolio */
 .pv-box{
@@ -123,6 +146,10 @@
 }
 
 #contact {
+  color: #2c3e50;
+}
+
+::placeholder{
   color: #2c3e50;
 }
 
