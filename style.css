@@ -10,6 +10,14 @@
   text-transform: uppercase;
 }
 
+.pv-fs-40{
+  font-size: 40px;
+}
+
+.pv-fs-30{
+  font-size: 30px;
+}
+
 .pv-header-top{
   position: fixed;
   top: 0;
@@ -18,4 +26,32 @@
   z-index: 999;
   background-color: #2c3e50;
   color: white;
+}
+
+.pv-header-bottom{
+  margin-top: 80px;
+  min-height: 300px;
+  background-color: #1abc9c;
+}
+
+.pv-jumbotron{
+  width: 80%; 
+  min-height: 300px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.pv-jumbotron img{
+  max-height: 200px;
+}
+
+.pv-jumbotron ul{
+  color: white;
+  list-style: none;
+}
+
+.pv-jumbotron li{
+  font-size: 25px;
+  display: inline-block;
 }
