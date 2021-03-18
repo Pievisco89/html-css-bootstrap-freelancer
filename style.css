@@ -6,6 +6,10 @@
   padding: 30px 0;
 }
 
+.pv-padding-20{
+  padding: 20px 0;
+}
+
 .pv-wrapper-50{
   width: 50%;
   margin: 0 auto;
@@ -89,4 +93,11 @@
 #about{
   background-color: #1abc9c;
   color: white;
+}
+
+
+.pv-form{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
 }
