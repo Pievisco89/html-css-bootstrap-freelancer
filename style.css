@@ -31,6 +31,12 @@
   font-size: 20px;
 }
 
+.pv-hamb{
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 5px;
+}
+
 .pv-header-top{
   position: fixed;
   top: 0;
