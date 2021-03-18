@@ -80,10 +80,23 @@
   margin: 0 auto;
 }
 
+.pv-form{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Btn */
 .btn{
   background-color: transparent;
   border: 1px solid white;
   padding: 10px 15px;
+}
+
+.btn.send{
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
 }
 
 #portfolio {
@@ -95,9 +108,13 @@
   color: white;
 }
 
-
-.pv-form{
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid lightgray;
+#contact {
+  color: #2c3e50;
 }
+
+
+
+
+
+
+
