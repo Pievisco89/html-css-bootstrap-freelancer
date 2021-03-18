@@ -55,3 +55,18 @@
   font-size: 25px;
   display: inline-block;
 }
+
+.pv-box{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.pv-box img{
+  max-height: 250px;
+  margin: 0 auto;
+}
+
+#portfolio {
+  color: #2c3e50;
+}
