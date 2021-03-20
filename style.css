@@ -1,4 +1,8 @@
 /* Comune */
+html{
+  scroll-behavior: smooth;
+}
+
 .pv-padding-80{
   padding: 80px 0;
 }
@@ -53,6 +57,11 @@
   padding-left: 15px;
 }
 
+.pv-ul-hidden li a{
+  color: white;
+}
+
+
 .pv-header-top{
   position: fixed;
   top: 0;
@@ -104,16 +113,6 @@
   border-bottom: 4px solid white;
 }
 
-/* .pv-rel .pv-line::before{
-  position: absolute;
-  content: '';
-  top: 45%;
-  right: 140%;
-  height: 15px;
-  width: 110px;
-  border-bottom: 4px solid white;
-} */
-
 /* main */
 /* portfolio */
 .pv-box{
@@ -130,7 +129,7 @@
 #portfolio {
   color: #2c3e50;
 }
-
+ 
 /* About */
 #about{
   background-color: #1abc9c;
@@ -188,4 +187,37 @@ footer{
   background-color: #1abc9c;
   color: white;
   padding: 10px 20px;
+}
+
+/* star */
+.pv-star-white::before,
+.pv-star-white::after{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.pv-star-white .fas.fa-star {
+  color: white;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.pv-star-blue::before,
+.pv-star-blue::after{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  vertical-align: middle;
+  background-color: #2c3e50;
+}
+
+.pv-star-blue .fas.fa-star {
+  color: #2c3e50;
+  vertical-align: middle;
+  font-size: 30px;
 }
